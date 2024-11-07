@@ -26,11 +26,11 @@ jobs:
           java-version: 21
           cache: gradle
       - run: ./gradlew lint
-      - uses: yutailang0119/action-android-lint@v4
-        with:
-          report-path: build/reports/*.xml # Support glob patterns by https://www.npmjs.com/package/@actions/glob
-          ignore-warnings: true # Ignore Lint Warnings
-        continue-on-error: false # If annotations contain error of severity, action-android-lint exit 1.
+#      - uses: yutailang0119/action-android-lint@v4
+#        with:
+#          report-path: build/reports/*.xml # Support glob patterns by https://www.npmjs.com/package/@actions/glob
+#          ignore-warnings: true # Ignore Lint Warnings
+#        continue-on-error: false # If annotations contain error of severity, action-android-lint exit 1.
       - name: Upload html test report 
         uses: actions/upload-artifact@v4
         with:
@@ -51,7 +51,7 @@ jobs:
           cache: gradle
 
       - name: Run tests
-        run: /gradlew test
+        run: ./gradlew test
 
       - name: Upload test report
         uses: actions/upload-artifact@v4
