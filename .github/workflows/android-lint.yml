@@ -31,3 +31,8 @@ jobs:
           report-path: build/reports/*.xml # Support glob patterns by https://www.npmjs.com/package/@actions/glob
           ignore-warnings: true # Ignore Lint Warnings
         continue-on-error: false # If annotations contain error of severity, action-android-lint exit 1.
+      - name: Upload html test report 
+        uses: actions/upload-artifact@v2
+        with:
+          name: index.html
+          path: composeApp/build/reports/lint-results-debug.html
