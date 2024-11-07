@@ -2,8 +2,7 @@ name: AndroidLint
 
 on:
   push:
-    branches:
-      - master
+    branches: [ "main" ]
   pull_request:
     paths:
       - .github/workflows/android-lint.yml
