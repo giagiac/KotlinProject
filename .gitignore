@@ -33,3 +33,16 @@ google-services.json
 *.hprof
 
 .kotlin
+archive/iosApp.xcarchive/Info.plist
+archive/iosApp.xcarchive/dSYMs/KotlinProject.app.dSYM/Contents/Info.plist
+archive/iosApp.xcarchive/dSYMs/KotlinProject.app.dSYM/Contents/Resources/DWARF/KotlinProject
+archive/iosApp.xcarchive/dSYMs/KotlinProject.app.dSYM/Contents/Resources/Relocations/aarch64/KotlinProject.yml
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/AppIcon60x60@2x.png
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/AppIcon76x76@2x~ipad.png
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/Assets.car
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/embedded.mobileprovision
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/Info.plist
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/KotlinProject
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/PkgInfo
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/_CodeSignature/CodeResources
+archive/iosApp.xcarchive/Products/Applications/KotlinProject.app/compose-resources/composeResources/kotlinproject.composeapp.generated.resources/drawable/compose-multiplatform.xml
